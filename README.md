@@ -1,18 +1,23 @@
-This repository contains a Jupyter notebook (Pyspark_Practice.ipynb) focused on fundamental operations in Apache Spark using PySpark.
+🐍 PySpark Fundamentals Practice
+A concise Jupyter notebook (Pyspark_Practice.ipynb) for mastering core Apache Spark data processing using the PySpark API.
 
-The notebook is structured to cover hands-on practice for both RDDs (Resilient Distributed Datasets) and DataFrames, demonstrating essential data analysis and manipulation techniques.
+This repository is an excellent resource for anyone looking to quickly review or practice essential RDD and DataFrame operations.
 
-Key Areas Covered
-RDD Practice
-Basic Statistics: Calculating sum, average, min, max, and count on a range of numbers.
+🚀 What's Inside?
+1. RDD Deep Dive 🔢
+Practice working with Spark's foundational data structure:
 
-Filtering & Grouping: Counting even vs. odd numbers and grouping custom data by age.
+Stats: Calculate sum, mean, min, max, and count for large numerical datasets.
 
-Text Analysis: Loading a text file, counting lines, and performing basic word frequency analysis (tokenization, stop-word removal).
+Filtering & Grouping: Separate even/odd numbers and group custom tuple data (Name, Age).
 
-DataFrame Practice
-Data Manipulation: Loading data, viewing schema, selecting columns, and filtering rows.
+Text Processing: Load text data, count lines, and perform word frequency analysis (tokenization, stop-word removal).
 
-Aggregation: Computing overall average salary and grouped aggregations (average salary by name).
+2. DataFrame Mastery 📊
+Hands-on with Spark's high-level, optimized API:
 
-Data Cleaning: Handling missing values by filling nulls with default strings or column means.
+Querying: Use SQL-like commands to select columns and filter rows based on criteria (e.g., employees older than 28).
+
+Aggregation: Compute overall averages and run grouped aggregations (e.g., average salary per employee name).
+
+Data Cleaning: Implement methods to handle missing values (nulls) by filling them with a default string or calculated column means.
