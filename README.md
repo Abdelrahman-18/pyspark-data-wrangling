@@ -18,7 +18,4 @@ Hands-on with Spark's high-level, optimized API:
 - **Aggregation:** Compute overall averages and run grouped aggregations (e.g., average salary per employee name).
 - **Data Cleaning:** Handle missing values (nulls) by filling them with a default string or calculated column means.
 
-## 💻 Usage
-1. Clone the repository:
-```bash
-git clone https://github.com/your-username/pyspark-practice.git
+
